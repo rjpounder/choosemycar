@@ -1,0 +1,26 @@
+{
+    "name": "rjpounder/choosemycar-test",
+    "description": "Code Test for ChooseMyCar",
+    "authors": [
+        {
+            "name": "Robert Pounder",
+            "email": "robert.j.pounder@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework/",
+            "ChooseMyCar\\": "src/"
+        },
+        "files": ["src/Framework/helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+    },
+    "repositories": [
+    ]
+}
